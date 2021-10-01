@@ -14,7 +14,6 @@ config dnsmasq
 	option localservice '1'
 	option filter_aaaa '1'
 	option sequential_ip '1'
-	option resolvfile '/tmp/resolv.conf.d/resolv.conf.auto'
 	list server '127.0.0.1#5333'
 	option noresolv '1'
 
@@ -46,13 +45,6 @@ config host
 	option name 'QNASstorage'
 
 config host
-	option ip '192.168.8.115'
-	option leasetime 'infinite'
-	option name 'MSiphone'
-	option dns '1'
-	option mac 'c0:cc:f8:81:ce:72'
-
-config host
 	option name 'SfacePro3'
 	option dns '1'
 	option mac '4c:0b:be:04:f5:ac'
@@ -63,8 +55,8 @@ config host
 	option name 'AC88U'
 	option dns '1'
 	option mac '18:31:bf:5c:04:a0'
-	option ip '192.168.8.120'
-	option leasetime 'infinite'
+	option ip '192.168.8.119'
+	option leasetime '12h'
 
 config srvhost
 	option srv '_vlmcs._tcp'
@@ -75,22 +67,22 @@ config srvhost
 
 config host
 	option dns '1'
-	option mac 'fc:7c:02:8c:d0:75'
-	option ip '192.168.8.154'
-	option leasetime '3d'
-	option name 'phicommN1'
-
-config host
-	option dns '1'
 	option mac '08:ba:5f:aa:78:36'
-	option ip '192.168.8.155'
-	option leasetime '3d'
 	option name 'hisense'
+	option ip '192.168.8.185'
+	option leasetime '3d'
 
 config host
+	option name 'FWR200'
 	option dns '1'
 	option mac 'd4:83:04:cb:c8:7d'
 	option ip '192.168.8.110'
-	option leasetime 'infinite'
-	option name 'FWR200'
+	option leasetime '3d'
+
+config host
+	option name 'AppleTV'
+	option dns '1'
+	option mac '58:d3:49:ed:9b:c1'
+	option ip '192.168.8.120'
+	option leasetime '1d'
 
