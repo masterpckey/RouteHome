@@ -1,0 +1,3 @@
+0 4 * * * /etc/coremark.sh
+30 23 * * 5 sleep 5 && touch /etc/banner && reboot
+0 2 * * * /usr/share/UnblockNeteaseMusic/update_core.sh 2>&1
