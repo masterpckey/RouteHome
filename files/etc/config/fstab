@@ -8,7 +8,7 @@ config global
 	option anon_mount '1'
 
 config mount
-	option enabled '1'
-	option device '/dev/sdb1'
-	option target '/mnt/sdb1'
+	option target '/boot'
+	option uuid '84173db5-fa99-e35a-95c6-28613cc79ea9'
+	option enabled '0'
 

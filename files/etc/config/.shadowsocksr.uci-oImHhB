@@ -19,7 +19,7 @@ config global
 	option run_mode 'gfw'
 	option pdnsd_enable '1'
 	option tunnel_forward '8.8.4.4:53'
-	option global_server 'cfg224a8f'
+	option global_server 'cfg234a8f'
 
 config access_control
 	option lan_ac_mode 'b'
@@ -32,9 +32,6 @@ config access_control
 	list lan_bp_ips '192.168.8.108'
 	list lan_bp_ips '192.168.8.110'
 	list lan_bp_ips '192.168.8.118'
-	list lan_bp_ips '192.168.8.135'
-	list lan_bp_ips '192.168.8.136'
-	list lan_bp_ips '192.168.8.137'
 
 config socks5_proxy
 	option socks '0'
@@ -574,7 +571,6 @@ config servers
 	option alias '🇭🇰 香港-流媒体优化2[X1.5]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
