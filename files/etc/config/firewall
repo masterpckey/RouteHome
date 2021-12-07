@@ -298,3 +298,23 @@ config rule 'kms'
 	option proto 'tcp'
 	option dest_port '1688'
 
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '5008'
+	option dest_ip '192.168.8.108'
+	option dest_port '5008'
+	option name 'webdav'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '8443'
+	option dest_ip '192.168.8.1'
+	option dest_port '8443'
+	option name 'webs'
+

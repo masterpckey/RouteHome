@@ -100,12 +100,12 @@ config softethervpn
 config shadowsocksr
 	option init 'shadowsocksr'
 
+config turboacc
+	option init 'turboacc'
+
 config unblockmusic
 	option init 'unblockmusic'
 
 config vlmcsd
 	option init 'kms'
-
-config turboacc
-	option init 'turboacc'
 

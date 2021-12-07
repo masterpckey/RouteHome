@@ -19,7 +19,7 @@ config global
 	option run_mode 'gfw'
 	option pdnsd_enable '1'
 	option tunnel_forward '8.8.4.4:53'
-	option global_server 'cfg224a8f'
+	option global_server 'cfg0c4a8f'
 
 config access_control
 	option lan_ac_mode 'b'
@@ -70,6 +70,7 @@ config servers
 	option alias 'pornhub专用中继线路'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.240.69.56'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -85,9 +86,10 @@ config servers
 	option alter_id '1'
 	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
 	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇷🇺 俄罗斯-视频[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option alias '🇷🇺 俄罗斯-视频[X1.0]切勿发表不良言论以免影响您的生活，谢谢'
+	option ip '183.240.69.56'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -106,6 +108,7 @@ config servers
 	option alias '🇨🇦 加拿大多伦多-流媒体优化1[X1.3]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '120.232.193.67'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -124,6 +127,7 @@ config servers
 	option alias '🇨🇦 加拿大多伦多-流媒体优化2[X1.3]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.240.69.21'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -139,9 +143,10 @@ config servers
 	option alter_id '1'
 	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
 	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇮🇳 印度-视频[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.240.69.21'
+	option alias '🇮🇳 印度-视频[X1.0]爱党爱国爱人民！'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -160,6 +165,7 @@ config servers
 	option alias '🇹🇼 台湾-流媒体[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -175,9 +181,10 @@ config servers
 	option alter_id '1'
 	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
 	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇹🇼 台湾-流媒体优化1[X1.5]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option alias '🇹🇼 台湾-流媒体优化1[X1.0]'
+	option ip '183.240.69.56'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -196,24 +203,7 @@ config servers
 	option alias '🇹🇷 土耳其-流媒体[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-
-config servers
-	option ws_host 'xuexi.cn'
-	option type 'v2ray'
-	option v2ray_protocol 'vmess'
-	option local_port '1234'
-	option kcp_param '--nocomp'
-	option server_port '30075'
-	option transport 'ws'
-	option hashkey '669f495e2474d67cadef434814091ea0'
-	option tls '0'
-	option ws_path '/videos'
-	option alter_id '1'
-	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
-	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇸🇬 新加坡-应急[X1.0]'
-	option server 'bj.dddd.cool'
-	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -232,6 +222,7 @@ config servers
 	option alias '🇸🇬 新加坡-推特[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -250,24 +241,7 @@ config servers
 	option alias '🇸🇬 新加坡-智能[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-
-config servers
-	option ws_host 'xuexi.cn'
-	option type 'v2ray'
-	option v2ray_protocol 'vmess'
-	option local_port '1234'
-	option kcp_param '--nocomp'
-	option server_port '30035'
-	option transport 'ws'
-	option hashkey 'c27a2be667ed44b11949beb4923de6ab'
-	option tls '0'
-	option ws_path '/videos'
-	option alter_id '1'
-	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
-	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇯🇵 日本-优化1[X1.3]'
-	option server 'zj.haojiahuo.club'
-	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -286,6 +260,7 @@ config servers
 	option alias '🇯🇵 日本-智能[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -304,6 +279,7 @@ config servers
 	option alias '更新订阅专用节点'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -322,24 +298,7 @@ config servers
 	option alias '🇫🇷 法国-流媒体优化1[X1.5]	'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-
-config servers
-	option ws_host 'xuexi.cn'
-	option type 'v2ray'
-	option v2ray_protocol 'vmess'
-	option local_port '1234'
-	option kcp_param '--nocomp'
-	option server_port '30046'
-	option transport 'ws'
-	option hashkey 'e8a1051159c6b4bcd11d59f4a81c8e5a'
-	option tls '0'
-	option ws_path '/videos'
-	option alter_id '1'
-	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
-	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇺🇲 美国-优化1[X1.3]'
-	option server 'zj1.haojiahuo.club'
-	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -358,6 +317,7 @@ config servers
 	option alias '🇺🇲 美国-优化2[X1.3]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -376,6 +336,7 @@ config servers
 	option alias '🇺🇲 美国-推特[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -394,6 +355,7 @@ config servers
 	option alias '🇺🇲 美国-智能[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -412,6 +374,7 @@ config servers
 	option alias '🇺🇲 美国-流媒体[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -430,6 +393,7 @@ config servers
 	option alias '🇵🇭 菲律宾-视频[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -448,6 +412,7 @@ config servers
 	option alias '迪拜-流媒体2[X1.2]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -466,6 +431,7 @@ config servers
 	option alias '迪拜-流媒体优化1[X1.2]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -484,6 +450,7 @@ config servers
 	option alias '🇰🇷 韩国-优化1[X1.3]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -502,6 +469,7 @@ config servers
 	option alias '🇰🇷 韩国-优化2[X1.3]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -520,6 +488,7 @@ config servers
 	option alias '🇰🇷 韩国-智能[X1.0]	'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -527,35 +496,18 @@ config servers
 	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
-	option server_port '30058'
+	option server_port '30057'
 	option transport 'ws'
-	option hashkey '89432ad78140e8235e1f32b2b2399cf4'
+	option hashkey '42775579667c06e8228542f9d67ec3b3'
 	option tls '0'
 	option ws_path '/videos'
 	option alter_id '1'
 	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
 	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇭🇰 香港-流媒体[X0.7]'
-	option server 'zj1.haojiahuo.club'
-	option switch_enable '1'
-
-config servers
-	option ws_host 'xuexi.cn'
-	option type 'v2ray'
-	option v2ray_protocol 'vmess'
-	option local_port '1234'
-	option kcp_param '--nocomp'
-	option server_port '60035'
-	option transport 'ws'
-	option hashkey '8f7af2edbcf156572db64fcd73ad2225'
-	option tls '0'
-	option ws_path '/videos'
-	option alter_id '1'
-	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
-	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇭🇰 香港-流媒体优化1[X1.5]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
+	option ip '183.236.60.143'
+	option alias '🇭🇰 香港-优化[X1.1]切勿发表不良言论以免影响您的生活，谢谢'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -563,15 +515,15 @@ config servers
 	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
-	option server_port '30078'
+	option server_port '60036'
 	option transport 'ws'
-	option hashkey '71fcdad96daa6536e55c09a922e67b77'
+	option hashkey '20c98103daf501b8a38e73abfdf82f37'
 	option tls '0'
 	option ws_path '/videos'
 	option alter_id '1'
 	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
 	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇭🇰 香港-流媒体优化2[X1.5]'
+	option alias '🇭🇰 香港-流媒体优化1[X1.2]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
 	option ip '183.236.60.143'
@@ -582,15 +534,34 @@ config servers
 	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
-	option server_port '30003'
+	option server_port '30175'
 	option transport 'ws'
-	option hashkey '21188f8b2a2a9ad9adefb9a56ca4b8f7'
+	option hashkey '80591e8fc16c97f5588d3992e941dabd'
 	option tls '0'
 	option ws_path '/videos'
 	option alter_id '1'
 	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
 	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇭🇰 香港-视频1[X1.3]'
+	option alias '🇸🇬 新加坡-应急[X1.0]'
+	option server 'zj2.haojiahuo.club'
+	option switch_enable '1'
+	option ip '120.232.214.10'
+
+config servers
+	option ws_host 'xuexi.cn'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
+	option local_port '1234'
+	option kcp_param '--nocomp'
+	option server_port '30074'
+	option transport 'ws'
+	option hashkey 'e106b2b55ebe3a19eff5802418ddbba4'
+	option tls '0'
+	option ws_path '/videos'
+	option alter_id '1'
+	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
+	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
+	option alias '🇯🇵 日本-优化[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
 
@@ -600,33 +571,15 @@ config servers
 	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
-	option server_port '30007'
+	option server_port '30046'
 	option transport 'ws'
-	option hashkey 'b4ab027353370b892a6eed968f5390f9'
+	option hashkey '23b0ba9af455429af39b6e340873b9e8'
 	option tls '0'
 	option ws_path '/videos'
 	option alter_id '1'
 	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
 	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇭🇰 香港-视频2[X1.0]'
-	option server 'zj.haojiahuo.club'
-	option switch_enable '1'
-
-config servers
-	option ws_host 'xuexi.cn'
-	option type 'v2ray'
-	option v2ray_protocol 'vmess'
-	option local_port '1234'
-	option kcp_param '--nocomp'
-	option server_port '30002'
-	option transport 'ws'
-	option hashkey '9ced5e461f7e06a67d90bf0a959077a7'
-	option tls '0'
-	option ws_path '/videos'
-	option alter_id '1'
-	option grouphashkey '6d9fd14ba4bcf83bfa0eddb232feac2b'
-	option vmess_id '1a689e21-7569-34c5-8d64-5b17a3e9e816'
-	option alias '🇭🇰 香港-视频3[X1.1]'
+	option alias '🇺🇲 美国-优化1[X1.3]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
 

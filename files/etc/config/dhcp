@@ -75,13 +75,6 @@ config srvhost
 
 config host
 	option dns '1'
-	option mac 'fc:7c:02:8c:d0:75'
-	option ip '192.168.8.154'
-	option leasetime '3d'
-	option name 'phicommN1'
-
-config host
-	option dns '1'
 	option mac '08:ba:5f:aa:78:36'
 	option ip '192.168.8.155'
 	option leasetime '3d'
@@ -112,4 +105,13 @@ config host
 	option mac '8c:de:f9:9f:bc:a4'
 	option ip '192.168.8.137'
 	option leasetime 'infinite'
+	option name 'MiAiSoundbox-03'
+	option dns '1'
+
+config host
+	option name 'RG-EG205G'
+	option dns '1'
+	option mac 'ca:d1:27:b1:33:c6'
+	option ip '192.168.8.112'
+	option leasetime '3d'
 

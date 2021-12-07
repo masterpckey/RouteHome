@@ -5,7 +5,6 @@ config adbyby
 	option block_ios '0'
 	option mem_mode '1'
 	option update_source '1'
-	option wan_mode '0'
 	option block_douyin '0'
 	list subscribe_url 'https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt'
 	list subscribe_url 'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts'
@@ -14,6 +13,7 @@ config adbyby
 	option block_cnshort '0'
 	option cron_mode '0'
 	option enable '1'
+	option wan_mode '1'
 
 config acl_rule
 	option filter_mode 'disable'
