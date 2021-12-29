@@ -13,6 +13,6 @@ config service 'myddns_ipv4'
 	option domain 'mshomerouter.zicp.io'
 	option username '18653985393'
 	option password 'master*2018'
-	option force_interval '24'
 	option enabled '1'
+	option force_interval '8'
 
