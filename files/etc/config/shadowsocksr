@@ -70,7 +70,7 @@ config servers
 	option alias 'pornhub专用中继线路'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -108,7 +108,7 @@ config servers
 	option alias '🇨🇦 加拿大多伦多-流媒体优化1[X1.3]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -146,7 +146,7 @@ config servers
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
 	option alias '🇮🇳 印度-视频[X1.0]爱党爱国爱人民！'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -184,7 +184,7 @@ config servers
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
 	option alias '🇹🇼 台湾-流媒体优化1[X1.0]'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -241,7 +241,7 @@ config servers
 	option alias '🇸🇬 新加坡-智能[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -260,7 +260,7 @@ config servers
 	option alias '🇯🇵 日本-智能[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -298,7 +298,7 @@ config servers
 	option alias '🇫🇷 法国-流媒体优化1[X1.5]	'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -336,7 +336,7 @@ config servers
 	option alias '🇺🇲 美国-推特[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -355,7 +355,7 @@ config servers
 	option alias '🇺🇲 美国-智能[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -374,7 +374,7 @@ config servers
 	option alias '🇺🇲 美国-流媒体[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -393,7 +393,7 @@ config servers
 	option alias '🇵🇭 菲律宾-视频[X1.0]'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.236.60.143'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -488,7 +488,7 @@ config servers
 	option alias '🇰🇷 韩国-智能[X1.0]	'
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
@@ -507,7 +507,7 @@ config servers
 	option server 'zj.haojiahuo.club'
 	option switch_enable '1'
 	option alias '🇭🇰 香港-优化[X1.1]切勿发表不良言论以免影响您的生活，谢谢'
-	option ip '183.240.69.56'
+	option ip '120.232.193.102'
 
 config servers
 	option ws_host 'xuexi.cn'
