@@ -76,6 +76,9 @@ config smartdns
 config sfe
 	option init 'sfe'
 
+config jd-dailybonus
+	option init 'jd-dailybonus'
+
 config upnpd
 	option init 'miniupnpd'
 
@@ -87,9 +90,6 @@ config adbyby
 
 config arpbind
 	option init 'arpbind'
-
-config jd-dailybonus
-	option init 'jd-dailybonus'
 
 config mia
 	option init 'mia'

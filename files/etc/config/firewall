@@ -273,6 +273,16 @@ config redirect
 	option dest_port '8443'
 	option name 'webs'
 
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '8123'
+	option dest_ip '192.168.8.119'
+	option dest_port '8123'
+	option name 'HOMEOS'
+
 config include 'miniupnpd'
 	option type 'script'
 	option path '/usr/share/miniupnpd/firewall.include'
@@ -317,14 +327,4 @@ config rule 'kms'
 	option src 'wan'
 	option proto 'tcp'
 	option dest_port '1688'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '8123'
-	option dest_ip '192.168.8.119'
-	option dest_port '8123'
-	option name 'HOMEOS'
 
