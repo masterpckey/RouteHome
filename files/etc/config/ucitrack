@@ -1,0 +1,117 @@
+
+config network
+	option init 'network'
+	list affects 'dhcp'
+	list affects 'radvd'
+
+config wireless
+	list affects 'network'
+
+config firewall
+	option init 'firewall'
+	list affects 'luci-splash'
+	list affects 'qos'
+	list affects 'miniupnpd'
+
+config olsr
+	option init 'olsrd'
+
+config dhcp
+	option init 'dnsmasq'
+	list affects 'odhcpd'
+
+config odhcpd
+	option init 'odhcpd'
+
+config dropbear
+	option init 'dropbear'
+
+config httpd
+	option init 'httpd'
+
+config fstab
+	option init 'fstab'
+
+config qos
+	option init 'qos'
+
+config system
+	option init 'led'
+	list affects 'luci_statistics'
+	list affects 'dhcp'
+
+config cron
+	option init 'cron'
+
+config luci_splash
+	option init 'luci_splash'
+
+config ntpclient
+	option init 'ntpclient'
+
+config samba
+	option init 'samba'
+
+config tinyproxy
+	option init 'tinyproxy'
+
+config zerotier
+	option init 'zerotier'
+
+config ipsec
+	option init 'ipsec'
+
+config vsftpd
+	option init 'vsftpd'
+
+config xlnetacc
+	option init 'xlnetacc'
+
+config uuplugin
+	option init 'uuplugin'
+
+config smartdns
+	option init 'smartdns'
+
+config sfe
+	option init 'sfe'
+
+config jd-dailybonus
+	option init 'jd-dailybonus'
+
+config shadowsocksr
+	option init 'shadowsocksr'
+
+config upnpd
+	option init 'miniupnpd'
+
+config nlbwmon
+	option init 'nlbwmon'
+
+config adbyby
+	option init 'adbyby'
+
+config arpbind
+	option init 'arpbind'
+
+config mia
+	option init 'mia'
+
+config passwall
+	option init 'passwall'
+
+config passwall_server
+	option init 'passwall_server'
+
+config softethervpn
+	option init 'softethervpn'
+
+config turboacc
+	option init 'turboacc'
+
+config unblockmusic
+	option init 'unblockmusic'
+
+config vlmcsd
+	option init 'kms'
+
