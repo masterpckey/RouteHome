@@ -1,0 +1,8 @@
+
+config samba
+	option workgroup 'WORKGROUP'
+	option homes '0'
+	option autoshare '0'
+	option name 'RouterNAS'
+	option description 'Router'
+
