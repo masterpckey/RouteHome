@@ -1,12 +1,12 @@
 
 config upnpd 'config'
-	option download '1024'
-	option upload '512'
 	option internal_iface 'lan'
 	option port '5000'
-	option upnp_lease_file '/var/upnp.leases'
+	option upnp_lease_file '/var/run/miniupnpd.leases'
 	option enabled '1'
-	option uuid '02242993-0adf-44b6-b2f9-90a4e2c7c761'
+	option uuid 'a8a5cefb-e4f5-42a5-911f-353cb18bbed3'
+	option download '10240'
+	option upload '10240'
 
 config perm_rule
 	option action 'allow'

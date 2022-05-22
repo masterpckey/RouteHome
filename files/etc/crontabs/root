@@ -1,4 +1,4 @@
-0 4 * * * /etc/coremark.sh
-0 16 * * 5 lua /usr/share/passwall/rule_update.lua log > /dev/null 2>&1 &
-0 16 * * * lua /usr/share/passwall/subscribe.lua start cfg0f8b02 > /dev/null 2>&1 &
+0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh >/var/log/ssrplus.log
+30 02 * * 1 sleep 5 && touch /etc/banner && reboot
+0 2 * * * /usr/share/UnblockNeteaseMusic/update_core.sh 2>&1
 0 2 * * * /usr/share/UnblockNeteaseMusic/update_core.sh 2>&1

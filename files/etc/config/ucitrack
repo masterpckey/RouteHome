@@ -30,7 +30,7 @@ config httpd
 	option init 'httpd'
 
 config fstab
-	option exec '/sbin/block mount'
+	option init 'fstab'
 
 config qos
 	option init 'qos'
@@ -54,6 +54,36 @@ config samba
 
 config tinyproxy
 	option init 'tinyproxy'
+
+config zerotier
+	option init 'zerotier'
+
+config ipsec
+	option init 'ipsec'
+
+config vsftpd
+	option init 'vsftpd'
+
+config xlnetacc
+	option init 'xlnetacc'
+
+config uuplugin
+	option init 'uuplugin'
+
+config smartdns
+	option init 'smartdns'
+
+config sfe
+	option init 'sfe'
+
+config jd-dailybonus
+	option init 'jd-dailybonus'
+
+config shadowsocksr
+	option init 'shadowsocksr'
+
+config adbyby
+	option init 'adbyby'
 
 config AdGuardHome
 	option init 'AdGuardHome'

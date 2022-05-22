@@ -1,9 +1,9 @@
 bind_host: 0.0.0.0
-bind_port: 3000
+bind_port: 80
 beta_bind_port: 0
 users:
 - name: admin
-  password: $2a$10$BTGBbnizI7qUwXxBIzITt.7keZ0ebZ7OhywsUQRpBPANWGZtJqwC6
+  password: $2a$10$a5iTerjLGVySeaDaBEdi1eGPV9gkNZ3MXpUIm4y1wfBVxSwWEzvLG
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
@@ -14,10 +14,10 @@ dns:
   bind_hosts:
   - 0.0.0.0
   port: 53
-  statistics_interval: 7
+  statistics_interval: 1
   querylog_enabled: true
   querylog_file_enabled: true
-  querylog_interval: 24h
+  querylog_interval: 2160h
   querylog_size_memory: 1000
   anonymize_client_ip: false
   protection_enabled: true
@@ -31,20 +31,14 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - 114.114.114.114
-  - 223.5.5.5
-  - 223.6.6.6
-  - 180.76.76.76
-  - 117.50.11.11
-  - 117.50.22.22
-  - 119.29.29.29
-  - 182.254.116.116
+  - https://dns10.quad9.net/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
-  - 114.114.114.114
-  - 1.2.4.8
-  - 202.98.0.6
-  all_servers: true
+  - 9.9.9.10
+  - 149.112.112.10
+  - 2620:fe::10
+  - 2620:fe::fe:10
+  all_servers: false
   fastest_addr: false
   fastest_timeout: 1s
   allowed_clients: []
@@ -106,10 +100,6 @@ filters:
   url: https://adaway.org/hosts.txt
   name: AdAway Default Blocklist
   id: 2
-- enabled: true
-  url: https://anti-ad.net/easylist.txt
-  name: easylist
-  id: 1652793352
 whitelist_filters: []
 user_rules: []
 dhcp:
