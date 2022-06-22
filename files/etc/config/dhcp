@@ -14,10 +14,8 @@ config dnsmasq
 	option localservice '1'
 	option filter_aaaa '1'
 	option sequential_ip '1'
-	option localuse '1'
-	option resolvfile '/tmp/resolv.conf.d/resolv.conf.auto'
-	option serversfile ''\''server=192.168.8.1'
-	option port '1745'
+	list server '127.0.0.1#5333'
+	option noresolv '1'
 
 config dhcp 'lan'
 	option interface 'lan'
@@ -77,16 +75,16 @@ config srvhost
 config host
 	option dns '1'
 	option mac '08:ba:5f:aa:78:36'
+	option ip '192.168.8.155'
+	option leasetime '3d'
 	option name 'hisense'
-	option ip '192.168.8.145'
-	option leasetime 'infinite'
 
 config host
 	option dns '1'
+	option mac 'd4:83:04:cb:c8:7d'
 	option ip '192.168.8.110'
 	option leasetime 'infinite'
-	option name 'hikvision'
-	option mac '30:88:41:7b:b8:f5'
+	option name 'FWR200'
 
 config host
 	option mac '5c:02:14:15:90:71'
@@ -113,8 +111,8 @@ config host
 	option name 'RG-EG205G'
 	option dns '1'
 	option ip '192.168.8.112'
+	option leasetime '3d'
 	option mac 'ca:99:88:e6:00:7b'
-	option leasetime 'infinite'
 
 config host
 	option name 'AppleTV-6'
@@ -122,4 +120,11 @@ config host
 	option mac '58:d3:49:ed:9b:c1'
 	option ip '192.168.8.138'
 	option leasetime '3D'
+
+config host
+	option dns '1'
+	option ip '192.168.8.119'
+	option leasetime 'infinite'
+	option mac '52:54:00:7c:d5:e8'
+	option name 'HassOS'
 

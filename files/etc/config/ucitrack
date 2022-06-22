@@ -79,20 +79,14 @@ config sfe
 config jd-dailybonus
 	option init 'jd-dailybonus'
 
-config shadowsocksr
-	option init 'shadowsocksr'
-
-config adbyby
-	option init 'adbyby'
-
-config AdGuardHome
-	option init 'AdGuardHome'
-
 config upnpd
 	option init 'miniupnpd'
 
 config nlbwmon
 	option init 'nlbwmon'
+
+config adbyby
+	option init 'adbyby'
 
 config arpbind
 	option init 'arpbind'
@@ -100,23 +94,17 @@ config arpbind
 config mia
 	option init 'mia'
 
-config passwall
-	option init 'passwall'
-
-config passwall_server
-	option init 'passwall_server'
-
 config softethervpn
 	option init 'softethervpn'
+
+config shadowsocksr
+	option init 'shadowsocksr'
 
 config turboacc
 	option init 'turboacc'
 
 config unblockmusic
 	option init 'unblockmusic'
-
-config unblockneteasemusic
-	option init 'unblockneteasemusic'
 
 config vlmcsd
 	option init 'kms'

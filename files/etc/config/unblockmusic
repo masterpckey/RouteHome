@@ -7,6 +7,4 @@ config unblockmusic
 	option apptype 'nodejs'
 	option force_enabled '1'
 	option autoupdate '1'
-	option replace_music_source '320000'
-	option local_vip '1'
 
