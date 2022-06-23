@@ -36,8 +36,8 @@ config redirect
 	option proto 'tcp udp'
 	option src_dport '5000'
 	option dest_ip '192.168.8.108'
+	option dest_port '8080'
 	option name 'QNAS'
-	option dest_port '8085'
 
 config redirect
 	option target 'DNAT'
@@ -48,6 +48,16 @@ config redirect
 	option dest_ip '192.168.8.1'
 	option dest_port '5555'
 	option name 'SVPN2'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '8000'
+	option dest_ip '192.168.8.110'
+	option dest_port '8000'
+	option name 'Forward8000'
 
 config redirect
 	option target 'DNAT'
@@ -95,8 +105,6 @@ config defaults
 	option output 'ACCEPT'
 	option fullcone '1'
 	option forward 'ACCEPT'
-	option flow_offloading_hw '1'
-	option flow_offloading '1'
 
 config zone
 	option name 'lan'
@@ -253,39 +261,10 @@ config rule 'esp'
 	option src 'wan'
 	option proto 'esp'
 
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '5008'
-	option dest_ip '192.168.8.108'
-	option dest_port '5008'
-	option name 'webdav'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '8443'
-	option dest_ip '192.168.8.1'
-	option dest_port '8443'
-	option name 'webs'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '8123'
-	option dest_ip '192.168.8.119'
-	option dest_port '8123'
-	option name 'HOMEOS'
-
-config include 'shadowsocksr'
+config include 'miniupnpd'
 	option type 'script'
-	option path '/var/etc/shadowsocksr.include'
+	option path '/usr/share/miniupnpd/firewall.include'
+	option family 'any'
 	option reload '1'
 
 config include 'adbyby'
@@ -300,25 +279,9 @@ config rule 'adblock'
 	option proto 'tcp'
 	option dest_port '8118'
 
-config include 'miniupnpd'
-	option type 'script'
-	option path '/usr/share/miniupnpd/firewall.include'
-	option family 'any'
-	option reload '1'
-
 config include 'mia'
 	option type 'script'
 	option path '/etc/mia.include'
-	option reload '1'
-
-config include 'passwall'
-	option type 'script'
-	option path '/var/etc/passwall.include'
-	option reload '1'
-
-config include 'passwall_server'
-	option type 'script'
-	option path '/var/etc/passwall_server.include'
 	option reload '1'
 
 config include 'softethervpn'
@@ -326,14 +289,14 @@ config include 'softethervpn'
 	option path '/usr/share/softethervpn/firewall.include'
 	option reload '1'
 
+config include 'shadowsocksr'
+	option type 'script'
+	option path '/var/etc/shadowsocksr.include'
+	option reload '1'
+
 config include 'unblockmusic'
 	option type 'script'
 	option path '/var/etc/unblockmusic.include'
-	option reload '1'
-
-config include 'unblockneteasemusic'
-	option type 'script'
-	option path '/var/etc/unblockneteasemusic.include'
 	option reload '1'
 
 config rule 'kms'
@@ -342,14 +305,4 @@ config rule 'kms'
 	option src 'wan'
 	option proto 'tcp'
 	option dest_port '1688'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '3000'
-	option dest_ip '192.168.8.1'
-	option dest_port '3000'
-	option name 'ADGhome'
 

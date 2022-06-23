@@ -18,7 +18,6 @@ config interface 'lan'
 	option _orig_bridge 'true'
 	option delegate '0'
 	option ifname 'eth0 eth1 eth2 tap_lede'
-	option dns '114.114.114.114 114.114.115.115'
 
 config interface 'wan'
 	option _orig_ifname 'eth1'

@@ -7,9 +7,6 @@ audio:x:29:
 www-data:x:33:
 ftp:x:55:
 users:x:100:
-network:x:101:network
+network:x:101:
 nogroup:x:65534:
 dnsmasq:x:453:dnsmasq
-ntp:x:123:ntp
-logd:x:514:logd
-ubus:x:81:ubus

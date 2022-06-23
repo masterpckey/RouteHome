@@ -1,0 +1,26 @@
+
+config adbyby
+	option daemon '2'
+	option lan_mode '0'
+	option block_ios '0'
+	option mem_mode '1'
+	option update_source '1'
+	option block_douyin '0'
+	option block_cnshort '0'
+	option cron_mode '0'
+	list subscribe_url 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
+	list subscribe_url 'https://adaway.org/hosts.txt'
+	list subscribe_url 'https://filters.adtidy.org/extension/ublock/filters/14.txt'
+	list subscribe_url 'http://sub.adtchrome.com/adt-chinalist-easylist.txt'
+	list subscribe_url 'https://gist.githubusercontent.com/Ewpratten/a25ae63a7200c02c850fede2f32453cf/raw/b9318009399b99e822515d388b8458557d828c37/hosts-yt-ads'
+	option wan_mode '0'
+	option enable '0'
+
+config acl_rule
+	option filter_mode 'disable'
+	option ipaddr '192.168.8.108'
+
+config acl_rule
+	option filter_mode 'disable'
+	option ipaddr '192.168.8.110'
+
