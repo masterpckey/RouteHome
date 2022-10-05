@@ -16,7 +16,6 @@ config dnsmasq
 	option resolvfile '/tmp/resolv.conf.d/resolv.conf.auto'
 	option sequential_ip '1'
 	list server '127.0.0.1#5333'
-	option noresolv '0'
 
 config dhcp 'lan'
 	option interface 'lan'
@@ -175,34 +174,13 @@ config host
 	option name 'ServerM'
 	option dns '1'
 	option mac '08:94:ef:a5:36:15'
-	option ip '192.168.8.121'
+	option ip '192.168.8.135'
 	option leasetime '3d'
 
 config host
-	option name 'Exis'
+	option name 'NASserverbak'
 	option dns '1'
 	option mac '08:94:ef:a5:3d:62'
-	option ip '192.168.8.122'
-	option leasetime '3d'
-
-config host
-	option name 'ESPN'
-	option dns '1'
-	option mac '00:0c:29:31:f5:1f'
-	option ip '192.168.8.123'
-	option leasetime '3d'
-
-config host
-	option name 'WXY'
-	option dns '1'
-	option mac '00:0c:29:cb:9a:c1'
 	option ip '192.168.8.125'
-	option leasetime '3D'
-
-config host
-	option name 'RouterBY'
-	option dns '1'
-	option mac '00:0c:29:f6:8e:34'
-	option ip '192.168.8.126'
 	option leasetime '3d'
 

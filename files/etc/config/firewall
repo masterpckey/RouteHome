@@ -36,8 +36,8 @@ config redirect
 	option proto 'tcp udp'
 	option src_dport '5000'
 	option dest_ip '192.168.8.108'
-	option dest_port '8080'
 	option name 'QNAS'
+	option dest_port '8085'
 
 config redirect
 	option target 'DNAT'
@@ -312,7 +312,7 @@ config redirect
 	option dest 'lan'
 	option proto 'tcp udp'
 	option src_dport '53389'
-	option dest_ip '192.168.8.123'
-	option dest_port '53389'
-	option name 'Remote'
+	option dest_port '3389'
+	option name 'Retome'
+	option dest_ip '192.168.8.125'
 
